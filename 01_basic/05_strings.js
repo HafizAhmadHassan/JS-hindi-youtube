@@ -30,4 +30,5 @@ console.table[
 const url ="https://hitesh.com/hitesh%20choudhary"
 console.table([url.replace('%20','-'),url.includes('sundar')])
 
-
+const gameName2 = new String('hitesh-hc-com')
+console.log(gameName2.split(3))

@@ -35,3 +35,8 @@ let isLoggedIn=false
 
 // null is an object datatype
 console.log(typeof "hello")
+console.log(typeof null)
+
+console.log(typeof null) // object
+
+console.log(typeof undefined)

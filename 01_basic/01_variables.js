@@ -1,3 +1,4 @@
+
 const account_Id = 144553
 let accountEmail="ahmadhassan061@gmail.com"
 var accountPassword ="123456"
@@ -19,5 +20,18 @@ console.log(account_Id);
 
 prefer not to use var because of issue in block scope and 
 functional scope
+
+
+javascript ko pta ni hota tha scope kya hai
+
+like 
+
+for loop(){
+
+
+}
+name variable use kiya ha many time to wo hr jga change ho jae ga
+
+
 */
 console.table([account_Id,accountEmail,accountPassword,accountCity,accountState])

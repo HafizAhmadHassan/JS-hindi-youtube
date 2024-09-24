@@ -36,3 +36,28 @@ const myFunction =function(){
 
 
 console.table([typeof myFunction,myObj, heros,outsideTemp])
+
+
+// ++++++++++++++++
+
+// Stack (Primitive) , Heap ( Non-Primitive )
+let myYoutubename= "hiteshchoudhrydotcom";
+
+let anothername= myYoutubename;
+anothername = "chai aur code";
+
+console.table([myYoutubename, anothername])
+
+
+
+
+let myObj1 = { 
+    myname : "hitesh",
+    age: 22,
+}
+
+let myObj2 = myObj1;
+
+myObj2.myname ="hassan";
+
+console.table([myObj1.myname, myObj2.myname]);
